@@ -1,8 +1,17 @@
 {
-  "name": "Aula21aaa",
+  "name": "Aula21",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/HenriqueFernandes182/aula21.git",
   "author": "HenriqueFernandes182 <hicky_hc@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
